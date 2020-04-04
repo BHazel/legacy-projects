@@ -1,0 +1,49 @@
+Read 1.0 Readme
+===============
+
+Read is a simple program to easily load and read README files on a UNIX-compliant system.
+It works in a similar way to GNU make by searching a directory for a compatible file,
+in this case a Readme file and loading it for reading using the less command.
+
+The following readme filenames are recognised by Read:
+
+    readme.txt
+    README.txt
+    README
+    readme
+    Readfile
+    readfile
+
+If multiple files are present, the first one (in the order of the list above) will be opened.
+
+To open a readme file, simply use the following command in a directory containing a compatible file:
+
+    read
+
+It's as simple as that!
+
+Installation
+============
+
+The standard installation pattern is followed for the compilation and installation of Read:
+
+    ./configure
+    make
+    make install
+
+To customise the output location for the installation, use the --prefix option on configure:
+
+    ./configure --prefix=/location/to/install
+
+By default, the C compiler used is the GNU compiler, gcc. This can be changed by setting the CC
+environment variable on configure:
+
+    ./configure CC=icc
+
+Additional settings can be applied. Use the --help option on configure to see all:
+
+    ./configure --help
+
+Once installation is complete, add the bin directory to your PATH environment variable if
+installation of Read was not to a standard location. Additionally, the manual page for Read
+can be found in the share/man/man1 directory in the installation location.

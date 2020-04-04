@@ -1,0 +1,68 @@
+.TH Read 1 "April 1, 2011" "http://readfile.codeplex.com" "Read 1.0.5.34 Manual"
+
+.SH NAME
+Read \- utility to easily load readme files for reading
+.SH SYNOPSIS
+.B read
+[\fIOPTION\fR]
+.SH DESCRIPTION
+.PP
+Read is a simple program to easily load and read README files on a UNIX-compliant system. It works in a similar way to GNU make by searching a directory for a compatible file, in this case a Readme file and loading it for reading using, by default, the less command.
+.TP
+The following readme filenames are recognised by Read:
+.ti
+readme.txt
+.ti
+README.txt
+.ti
+README
+.ti
+readme
+.ti
+Readfile
+.ti
+readfile
+.PP
+If multiple files are present, the first one (in the order of the list above) will be opened.
+.SH OPTIONS
+Read accepts the following options:
+.P
+.B \-e\fR,\fB \-\-emacs
+.RS
+Load readme file using GNU Emacs
+.RE
+.P
+.B \-i\fR,\fB \-\-vim
+.RS
+Load readme file using Vim
+.RE
+.P
+.B \-l\fR,\fB \-\-less
+.RS
+Load readme file using Less
+.RE
+.P
+.B \-L\fIprogram\fR,\fB \-\-load-with=\fIprogram
+.RS
+Load readme file using a custom text editor or viewer with filename \fIprogram
+.RE
+.P
+.B \-m\fR,\fB \-\-more
+.RS
+Load readme file using More
+.RE
+.P
+.B \-v, \-\-version
+.RS
+Display verion informaiton
+.RE
+.SH FILES
+The following additional files can be used with Read:
+.P
+.B $(HOME)/.readfile
+.RS
+Contains the default program to load readme files with when using the read command without any additional flags. The default program name should be placed at the beginning of the top line of \fI.readfile\fR with no other text present. If \fI.readfile\fR is not present, the less command will be used by default.
+.RE
+.SH AUTHOR
+Benedict W. Hazel,
+.B webmaster@bwhazel.co.uk

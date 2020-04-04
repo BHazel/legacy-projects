@@ -1,0 +1,26 @@
+1.0.5.34	01/04/2011	Benedict W. Hazel
+
+	* read.c: Added flags -l and --less for explicit use of less command to display readme files
+
+	* read.c: Integer returned from system when viewer command is run is displayed in Read exit statement
+
+	* read.c: Added loading of ~/.readfile to load readme files with a user-defined default viewer
+
+	* read.c: Alterations to existing variables:
+			- allocSize:         renamed to commandAllocSize and changed from int to size_t
+			- customReadmeViewer renamed to settingsReadmeViewer
+			- customViewerFlag:  renamed to customViewerFlagLength
+			- viewerAllocSize:   changed from int to size_t
+
+	* read.c: New variables:
+			- settingsFile:          FILE*,  .readfile
+			- settingsPath:          char*,  holds path for .readfile
+			- settingsPathAllocSize: size_t, holds allocation size for path to .readfile
+
+	* read.1: Added centralised title to top and web address on bottom left
+
+	* read.1: Added documentation for -l and --less flags
+
+	* read.1: Added documentation for use of ~/.readfile
+
+	* read.1: Minor punctuation fixes
