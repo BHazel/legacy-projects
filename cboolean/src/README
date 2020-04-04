@@ -1,0 +1,35 @@
+Bool.h 1.0 Readme
+=============
+
+ANSI C, up until the C99 standard, did not include a boolean data type.
+Bool.h is a single header file and offers a simple, highly customisable
+implementation using preprocessor macros. Several keyword sets are available
+based on several programming languages.
+
+Booleans in Bool.h are implemented via a type definition (typedef) of an
+unsigned integer.
+
+To use booleans in your C code, include bool.h:
+
+    #include <bool.h>    // or, if not in a global search path...
+    #include "bool.h"
+
+The default boolean syntax style is similar to that in C++, but can be set to
+another computer language via the use of a #define statement. Supported
+languages include:
+
+    C/C++ (default)       no #define required
+    Fortran               #define BOOL_FORTRAN
+    Java                  #define BOOL_JAVA
+    Objective-C           #define BOOL_OBJC
+    Visual Basic(.NET)    #define BOOL_VB
+
+A couple of preprocessor macros are available to manipulate booleans:
+
+    BLINT(boolean)        Returns the integer value of boolean (true = 1, false = 0)
+    BLSTR(boolean)        Returns the string representation of boolean
+
+To compile, ensure bool.h can be found by the compiler, if necessary, using the
+Includes flag:
+
+    gcc code.c -I directory -o code

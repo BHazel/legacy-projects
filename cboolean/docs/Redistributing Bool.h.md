@@ -1,0 +1,1 @@
+Bool.h is released under the LGPL and can therefore be edited and redistributed freely. However, any edited code must also be released under the LGPL.
