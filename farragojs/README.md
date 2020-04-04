@@ -2,7 +2,7 @@
 
 Project | Original Source | Original SCM | Last Effort
 --- | --- | --- | ---
-Read | CodePlex | Git | 2015
+FarragoJS | CodePlex | Git | 2015
 
 ## Introduction
 
