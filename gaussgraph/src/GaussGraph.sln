@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaussGraph", "GaussGraph\GaussGraph.csproj", "{A336591A-2681-44D9-A7A4-796B4B89E139}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GaussGraphInstaller", "GaussGraphInstaller\GaussGraphInstaller.vdproj", "{BFE86D1F-BE3A-4F13-AE25-557C13674E6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|x86 = Debug|x86
+		DVD-5|x86 = DVD-5|x86
+		Release|x86 = Release|x86
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.CD_ROM|x86.ActiveCfg = Release|x86
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.CD_ROM|x86.Build.0 = Release|x86
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.Debug|x86.ActiveCfg = Debug|x86
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.Debug|x86.Build.0 = Debug|x86
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.DVD-5|x86.ActiveCfg = Debug|x86
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.DVD-5|x86.Build.0 = Debug|x86
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.Release|x86.ActiveCfg = Release|x86
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.Release|x86.Build.0 = Release|x86
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.SingleImage|x86.ActiveCfg = Release|x86
+		{A336591A-2681-44D9-A7A4-796B4B89E139}.SingleImage|x86.Build.0 = Release|x86
+		{BFE86D1F-BE3A-4F13-AE25-557C13674E6C}.CD_ROM|x86.ActiveCfg = Release
+		{BFE86D1F-BE3A-4F13-AE25-557C13674E6C}.Debug|x86.ActiveCfg = Debug
+		{BFE86D1F-BE3A-4F13-AE25-557C13674E6C}.DVD-5|x86.ActiveCfg = Debug
+		{BFE86D1F-BE3A-4F13-AE25-557C13674E6C}.Release|x86.ActiveCfg = Release
+		{BFE86D1F-BE3A-4F13-AE25-557C13674E6C}.SingleImage|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
