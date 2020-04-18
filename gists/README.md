@@ -5,6 +5,7 @@ Gists are single-file programs or scripts I have made over the years.
 Gist | Technology | File | Description | Last Effort
 --- | --- | --- | --- | ---
 Bottles | C | btl.c | Command-line tool to print out lyrics to Ten Green Bottles where the number and colour of the bottles can be customised. | 2012
+Bottles (Modern) | Go | btl.go | Command-line tool similar to the C version above but written in Go. | 2018
 Bottles (Simple) | Fortran 90 | bottles.f90 | A very basic command-line tool to print out Ten Green Bottles, with customised number and colour | 2009
 Fizz Fuzz Bop | C | fz.c | Command-line tool to print out outcomes to Fizzz Fuzz Bop, a variant of FizzBuzz where 3 numbers are used. | 2012
 Happy Numbers | ActionScript, Flash | HappyNumbers.as | Program to determine if integers are happy. | 2013
