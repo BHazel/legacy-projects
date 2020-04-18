@@ -2,6 +2,8 @@
 
 This repository contains a dump of legacy repositories and personal projects I have worked on over the years.  Each is stored in its own directory with its own readme and documentation, where there was any!
 
+Single-file experiments and programs are stored in the _gists_ directory.
+
 A couple of things to note:
 
 * A lot of this code comes out of personal experiments and learning.
